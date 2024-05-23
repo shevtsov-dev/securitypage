@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />  
+
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="header__logo">Logo</a>
+            <nav class="nav"> 
+                <ul class="nav__list">
+                    <li><a class="nav__link" href="#banner">О нас</a></li>
+                    <li><a class="nav__link" href="#social">Услуги</a></li>
+                    <li><a class="nav__link" href="#articles">Услуги по виду клиента</a></li>
+                    <li><a class="nav__link" href="#reviews">Почему мы</a></li>
+                    <li><a class="nav__link" href="#portfolio">Блог</a></li>
+                    <li><a class="nav__link" href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__nav-button">
+                <button class="nav__button">
+                        <svg class="nav__icon nav__icon-active" width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0H24V3H0V0ZM0 7.5H24V10.5H0V7.5ZM0 15H24V18H0V15Z" fill="white"/>
+                        </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <main class="main">
+        <section class="banner" id="banner">
+            <div class="container banner__container">
+                <div class="banner__info">
+                    <h1 class="title banner__title">When you consider how crucial security can be</h1>
+                    <p  class="text banner__text">When you consider how crucial security can be, and when you think of all the options that you’re faced with today, one thing becomes clear. You need a contractor with experience.</p>
+                    <button class="button banner__button">Learn more</button>
+                </div>
+                <div class="banner__wrapper-image">
+                    <img class="banner__image" src="./img/banner/camera.png" alt="camera">
+                </div>
+            </div>
+        </section>
+        <section class="social" id="social">
+            <div class="container social__container">
+                <div class="social__info">
+                    <h2 class="title_second social__title">Social Media</h2>
+                    <p class="text social__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Aenean euismod bibendum laoreet.</p>
+                </div>
+                <div class="social__links">
+                    <a class="social__link" href="#"><svg width="30" height="56" viewBox="0 0 30 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.22037 55.4167H18.5175V32.0542H28.6963L29.8147 20.4458H18.5175V14.5833C18.5175 13.8098 18.8151 13.0679 19.3447 12.5209C19.8744 11.974 20.5928 11.6667 21.3418 11.6667H29.8147V0H21.3418C17.5966 0 14.0047 1.53645 11.3564 4.27136C8.70816 7.00626 7.22037 10.7156 7.22037 14.5833V20.4458H1.57179L0.453369 32.0542H7.22037V55.4167Z" fill="#061C3B"/>
+                        </svg>
+                    </a>
+                    <a class="social__link" href="#"><svg width="56" height="47" viewBox="0 0 56 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50.152 11.6025C50.1888 12.1129 50.1888 12.6204 50.1888 13.1279C50.1888 28.6592 38.7419 46.5558 17.8224 46.5558C11.3773 46.5558 5.38985 44.6279 0.351318 41.2796C1.26639 41.3875 2.14757 41.4254 3.09935 41.4254C8.21977 41.4382 13.1952 39.67 17.2236 36.4058C14.8496 36.3615 12.5482 35.5526 10.6409 34.0921C8.73353 32.6317 7.31541 30.5926 6.58453 28.2596C7.28778 28.3675 7.99385 28.4404 8.73381 28.4404C9.75338 28.4404 10.7786 28.2946 11.7304 28.0408C9.15395 27.5036 6.83723 26.0614 5.17413 23.9595C3.51103 21.8576 2.60424 19.2256 2.60793 16.5113V16.3654C4.12457 17.2375 5.8841 17.7829 7.74814 17.8558C6.18655 16.7842 4.90611 15.3301 4.02103 13.6231C3.13595 11.9162 2.67377 10.0096 2.67571 8.07334C2.67571 5.89167 3.23774 3.89083 4.22342 2.14667C7.08199 5.77798 10.6473 8.74872 14.6884 10.8665C18.7295 12.9843 23.1562 14.2019 27.682 14.4404C27.5069 13.5654 27.3995 12.6583 27.3995 11.7483C27.3988 10.2053 27.6926 8.67725 28.264 7.25153C28.8354 5.82581 29.6734 4.53039 30.7299 3.4393C31.7864 2.34821 33.0408 1.48287 34.4214 0.892729C35.802 0.302591 37.2816 -0.000765273 38.7758 1.44977e-06C42.052 1.44977e-06 45.009 1.4175 47.0877 3.71C49.6345 3.20138 52.0769 2.24123 54.3066 0.872084C53.4576 3.58696 51.6793 5.88905 49.3047 7.34708C51.5636 7.08102 53.7712 6.46757 55.8543 5.52708C54.2985 7.86946 52.3706 9.92351 50.152 11.6025Z" fill="#061C3B"/>
+                        </svg>
+                    </a>
+                    <a class="social__link" href="#"><svg width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M48.2813 0H3.0926C2.34355 0 1.62518 0.307291 1.09553 0.854272C0.565869 1.40125 0.268311 2.14312 0.268311 2.91667V49.5833C0.268311 50.3569 0.565869 51.0988 1.09553 51.6457C1.62518 52.1927 2.34355 52.5 3.0926 52.5H48.2813C49.0303 52.5 49.7487 52.1927 50.2783 51.6457C50.808 51.0988 51.1055 50.3569 51.1055 49.5833V2.91667C51.1055 2.14312 50.808 1.40125 50.2783 0.854272C49.7487 0.307291 49.0303 0 48.2813 0ZM15.3472 44.7329H7.80069V19.6787H15.3472V44.7329ZM11.5739 16.2575C10.4144 16.2575 9.30238 15.7818 8.48247 14.9351C7.66256 14.0884 7.20194 12.94 7.20194 11.7425C7.20194 10.545 7.66256 9.39664 8.48247 8.54991C9.30238 7.70319 10.4144 7.2275 11.5739 7.2275C12.7335 7.2275 13.8455 7.70319 14.6654 8.54991C15.4853 9.39664 15.9459 10.545 15.9459 11.7425C15.9459 12.94 15.4853 14.0884 14.6654 14.9351C13.8455 15.7818 12.7335 16.2575 11.5739 16.2575ZM43.5873 44.7329H36.0492V32.55C36.0492 29.645 35.9984 25.9088 32.1291 25.9088C28.2034 25.9088 27.6074 29.0763 27.6074 32.3458V44.7358H20.0751V19.6817H27.3052V23.1058H27.4097C28.4124 21.1371 30.8751 19.0604 34.5383 19.0604C42.1751 19.0604 43.5845 24.2463 43.5845 30.9954V44.7329H43.5873Z" fill="#061C3B"/>
+                        </svg>
+                    </a>
+                    <a class="social__link" href="#"><svg width="51" height="54" viewBox="0 0 51 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50.8363 16.2228C50.8078 14.0138 50.4074 11.8267 49.6529 9.75946C48.9987 8.01574 47.9994 6.43212 46.7189 5.1098C45.4385 3.78748 43.905 2.75552 42.2165 2.07988C40.2405 1.31383 38.1529 0.89962 36.0426 0.854875C33.3257 0.729458 32.4643 0.694458 25.5673 0.694458C18.6704 0.694458 17.7864 0.694458 15.0892 0.854875C12.9799 0.899949 10.8933 1.31416 8.91815 2.07988C7.22939 2.75505 5.6957 3.78684 4.4152 5.10922C3.1347 6.4316 2.13559 8.01546 1.4818 9.75946C0.738531 11.7986 0.338307 13.9539 0.298419 16.1324C0.176975 18.9411 0.140259 19.8307 0.140259 26.9532C0.140259 34.0757 0.140259 34.9857 0.298419 37.774C0.340783 39.9557 0.739008 42.1082 1.4818 44.1528C2.13669 45.8963 3.13654 47.4795 4.41747 48.8013C5.69839 50.1231 7.23223 51.1545 8.92098 51.8295C10.8907 52.6263 12.9777 53.0701 15.0921 53.142C17.8118 53.2674 18.6733 53.3053 25.5702 53.3053C32.4671 53.3053 33.3511 53.3053 36.0483 53.142C38.1585 53.099 40.2462 52.6858 42.2222 51.9199C43.9102 51.2434 45.4433 50.2112 46.7237 48.889C48.004 47.5668 49.0035 45.9836 49.6586 44.2403C50.4013 42.1986 50.7996 40.0461 50.8419 37.8615C50.9634 35.0557 51.0001 34.1661 51.0001 27.0407C50.9944 19.9182 50.9944 19.014 50.8363 16.2228ZM25.5504 40.4224C18.3372 40.4224 12.4937 34.3878 12.4937 26.9386C12.4937 19.4895 18.3372 13.4549 25.5504 13.4549C29.0133 13.4549 32.3343 14.8755 34.7829 17.4042C37.2315 19.9329 38.6071 23.3625 38.6071 26.9386C38.6071 30.5147 37.2315 33.9444 34.7829 36.4731C32.3343 39.0018 29.0133 40.4224 25.5504 40.4224ZM39.1268 16.1003C38.7268 16.1007 38.3308 16.0196 37.9612 15.8617C37.5917 15.7039 37.2559 15.4723 36.9731 15.1802C36.6903 14.8882 36.4661 14.5414 36.3132 14.1598C36.1603 13.7782 36.0818 13.3691 36.0822 12.9561C36.0822 12.5434 36.1609 12.1348 36.3138 11.7535C36.4668 11.3722 36.6909 11.0257 36.9735 10.7339C37.2561 10.4421 37.5916 10.2106 37.9608 10.0526C38.33 9.89471 38.7257 9.81342 39.1254 9.81342C39.525 9.81342 39.9207 9.89471 40.2899 10.0526C40.6591 10.2106 40.9946 10.4421 41.2772 10.7339C41.5598 11.0257 41.784 11.3722 41.9369 11.7535C42.0898 12.1348 42.1685 12.5434 42.1685 12.9561C42.1685 14.6945 40.8072 16.1003 39.1268 16.1003Z M25.5507 35.6974C30.2348 35.6974 34.032 31.776 34.032 26.9387C34.032 22.1014 30.2348 18.1799 25.5507 18.1799C20.8666 18.1799 17.0693 22.1014 17.0693 26.9387C17.0693 31.776 20.8666 35.6974 25.5507 35.6974Z" fill="#061C3B"/>
+                        </svg>
+                    </a>
+                </div>    
+            </div>
+        </section>
+        <section class="articles" id="articles">
+            <div class="container articles__container">
+                <div class="articles__head">
+                    <h2 class="title_second articles__title">Our articles</h2>
+                    <p class="text articles__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+                </div>
+                <div class="articles__elements">
+                    <div class="article">
+                        <div class="article__wrapper-image"><img src="/img/articles/lamp.png" alt="lamp"></div>
+                        <h3 class="title_third article__title">Thoughtful Design</h3>
+                        <p class="text article__text">Lorem ipsum dolor sit amet, consectetur adipiscing  elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+                    </div>
+                    <div class="article">
+                        <div class="article__wrapper-image"><img src="/img/articles/keyboard.png" alt="keyboard"></div>
+                        <h3 class="title_third article__title">Thoughtful Design</h3>
+                        <p class="text article__text">Lorem ipsum dolor sit amet, consectetur adipiscing  elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+                    </div>
+                    <div class="article">
+                        <div class="article__wrapper-image"><img src="/img/articles/lightning.png" alt="lightning"></div>
+                        <h3 class="title_third article__title">Thoughtful Design</h3>
+                        <p class="text article__text">Lorem ipsum dolor sit amet, consectetur adipiscing  elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="reviews" id="reviews">
+            <!-- Swiper -->
+            <div class="container reviews__container swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="reviews__wrapper-image"><img class="reviews__image" src="./img/scroll/face.png" alt="face"></div>
+                        <div class="review__wrapper-text">
+                            <p class="text review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nec diam platea ullamcorper feugiat amet. Id aliquet vehicula feugiat arcu arcu nulla ornare. Sed amet venenatis, massa sit.</p>
+                            <p class="text review__person">Jon Doe</p>
+                        </div>    
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="reviews__wrapper-image"><img class="reviews__image" src="./img/scroll/face.png" alt="face"></div>
+                        <div class="review__wrapper-text">
+                            <p class="text review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nec diam platea ullamcorper feugiat amet. Id aliquet vehicula feugiat arcu arcu nulla ornare. Sed amet venenatis, massa sit.</p>
+                            <p class="text review__person">Jon Doe</p>
+                        </div>    
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="reviews__wrapper-image"><img class="reviews__image" src="./img/scroll/face.png" alt="face"></div>
+                        <div class="review__wrapper-text">
+                            <p class="text review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nec diam platea ullamcorper feugiat amet. Id aliquet vehicula feugiat arcu arcu nulla ornare. Sed amet venenatis, massa sit.</p>
+                            <p class="text review__person">Jon Doe</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="reviews__wrapper-image"><img class="reviews__image" src="./img/scroll/face.png" alt="face"></div>
+                        <div class="review__wrapper-text">
+                            <p class="text review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nec diam platea ullamcorper feugiat amet. Id aliquet vehicula feugiat arcu arcu nulla ornare. Sed amet venenatis, massa sit.</p>
+                            <p class="text review__person">Jon Doe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next">
+                    <svg width="19" height="31" viewBox="0 0 19 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="-1" x2="22.2392" y2="-1" transform="matrix(0.735113 0.677945 0.782702 -0.622397 1.97339 0.846161)" stroke="#04193E" stroke-width="2"/>
+                        <line y1="-1" x2="22.2392" y2="-1" transform="matrix(0.735113 -0.677945 0.782702 0.622397 1.97339 31)" stroke="#04193E" stroke-width="2"/>
+                    </svg>
+                 </div>
+                <div class="swiper-button-prev">
+                    <svg width="19" height="30" viewBox="0 0 19 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="-1" x2="22.2392" y2="-1" transform="matrix(-0.735113 0.677945 -0.782702 -0.622397 17.3483 0)" stroke="#04193E" stroke-width="2"/>
+                        <line y1="-1" x2="22.2392" y2="-1" transform="matrix(-0.735113 -0.677945 -0.782702 0.622397 17.0266 30)" stroke="#04193E" stroke-width="2"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <section class="portfolio" id="portfolio">
+            <div class="container portfolio__container"> 
+                <h2 class="title_second portfolio__title">Some of our work</h2>
+                <p class="text portfolio__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+            </div>
+            <div class="portfolio__grid">
+                <div class="portfolio__block"><img class="portfolio__image" src="./img/portfolio/grid1_girl.png" alt="girl">
+                    <div class="portfolio__info">
+                        <img class="portfolio__icon" src="./img/portfolio/cup_on_sky.svg" alt="cup">
+                        <h3 class="title_third portfolio__subtitle">Creatively design</h3>
+                        <p class="text portfolio__description">Lorem ipsum dolor sit</p>
+                    </div>
+                </div>
+                <div class="portfolio__block"><img class="portfolio__image" src="./img/portfolio/grid2_ancient.png" alt="ancient">
+                    <div class="portfolio__info">
+                        <img class="portfolio__icon" src="./img/portfolio/cup_on_sky.svg" alt="cup">
+                        <h3 class="title_third portfolio__subtitle">Creatively design</h3>
+                        <p class="text portfolio__description">Lorem ipsum dolor sit</p>
+                    </div>
+                </div>
+                <div class="portfolio__block"><img class="portfolio__image" src="./img/portfolio/grid3_sand.png" alt="sand">
+                    <div class="portfolio__info">
+                        <img class="portfolio__icon" src="./img/portfolio/cup_on_sky.svg" alt="cup">
+                        <h3 class="title_third portfolio__subtitle">Creatively design</h3>
+                        <p class="text portfolio__description">Lorem ipsum dolor sit</p>
+                    </div>
+                </div>
+                <div class="portfolio__block"><img class="portfolio__image" src="./img/portfolio/grid4_build.png" alt="build">
+                    <div class="portfolio__info">
+                        <img class="portfolio__icon" src="./img/portfolio/cup_on_sky.svg" alt="cup">
+                        <h3 class="title_third portfolio__subtitle">Creatively design</h3>
+                        <p class="text portfolio__description">Lorem ipsum dolor sit</p>
+                    </div>
+                </div>
+                <div class="portfolio__block"><img class="portfolio__image" src="./img/portfolio/grid5_windows.png" alt="windows">
+                    <div class="portfolio__info">
+                        <img class="portfolio__icon" src="./img/portfolio/cup_on_sky.svg" alt="cup">
+                        <h3 class="title_third portfolio__subtitle">Creatively design</h3>
+                        <p class="text portfolio__description">Lorem ipsum dolor sit</p>
+                    </div>
+                </div>
+                <div class="portfolio__block"><img class="portfolio__image" src="./img/portfolio/grid6_sky.png" alt="sky">
+                    <div class="portfolio__info">
+                        <img class="portfolio__icon" src="./img/portfolio/cup_on_sky.svg" alt="cup">
+                        <h3 class="title_third portfolio__subtitle">Creatively design</h3>
+                        <p class="text portfolio__description">Lorem ipsum dolor sit</p>
+                    </div>
+                </div>
+                <div class="portfolio__block">
+                    <img class="portfolio__image" src="./img/portfolio/grid7_sky2.png" alt="sky2">
+                    <div class="portfolio__info">
+                        <img class="portfolio__icon" src="./img/portfolio/cup_on_sky.svg" alt="cup">
+                        <h3 class="title_third portfolio__subtitle">Creatively design</h3>
+                        <p class="text portfolio__description">Lorem ipsum dolor sit</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container contact__container">
+                <div class="contact__head">
+                    <h2 class="title_second contact__title">Contact us</h2>
+                    <p class="text contact__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+                </div>
+                <form class="form">
+                    <div class="form__info">
+                        <input class="form__input" type="text" placeholder="Name">
+                        <input class="form__input" type="email" placeholder="Email">
+                        <input class="form__input" type="password" placeholder="Password">
+                    </div>
+                        <textarea class="form__message" name="message" placeholder="Message"></textarea>
+                    <button class="button contact__button">Send message</button>      
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-info">
+            <div class="container footer-info__container">
+                <div class="footer-info__item">
+                    <h3 class="title_third footer-info__title">Location</h3>
+                    <p class="footer-info__text">3481 Melrose Place
+                        Beverly Hills, CA 90210</p>
+                </div>
+                <div class="footer-info__item">
+                    <h3 class="title_third footer-info__title">Share with love</h3>
+                    <div class="footer-info__social">
+                        <a class="footer-info__link" href="#"><svg width="26" height="45" viewBox="0 0 26 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.78863 45H15.4525V26.0289H24.1596L25.1163 16.6026H15.4525V11.8421C15.4525 11.214 15.707 10.6115 16.1601 10.1674C16.6132 9.72321 17.2277 9.47368 17.8684 9.47368H25.1163V0H17.8684C14.6647 0 11.5921 1.24765 9.32672 3.46847C7.06132 5.6893 5.78863 8.70138 5.78863 11.8421V16.6026H0.956718L0 26.0289H5.78863V45Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a class="footer-info__link" href="#"><svg width="45" height="35" viewBox="0 0 45 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M40.3768 8.72259C40.4066 9.10632 40.4066 9.48785 40.4066 9.86938C40.4066 21.5455 31.1258 35 14.165 35C8.93955 35 4.08508 33.5506 0 31.0334C0.741909 31.1145 1.45634 31.143 2.22802 31.143C6.37949 31.1526 10.4134 29.8233 13.6795 27.3694C11.7547 27.336 9.88886 26.7279 8.34244 25.63C6.79603 24.532 5.64626 22.9991 5.05368 21.2451C5.62385 21.3263 6.19632 21.3811 6.79625 21.3811C7.62289 21.3811 8.4541 21.2715 9.22578 21.0807C7.13689 20.6768 5.25856 19.5926 3.91018 18.0124C2.56179 16.4322 1.82659 14.4536 1.82958 12.4129V12.3033C3.05923 12.9589 4.4858 13.3689 5.9971 13.4238C4.73102 12.6181 3.69288 11.5249 2.97528 10.2417C2.25769 8.95844 1.88297 7.52506 1.88454 6.06942C1.88454 4.42927 2.34022 2.92507 3.13938 1.61383C5.45701 4.3438 8.34763 6.57716 11.624 8.16928C14.9004 9.7614 18.4895 10.6768 22.1588 10.8561C22.0168 10.1983 21.9298 9.51635 21.9298 8.83223C21.9292 7.6722 22.1674 6.52343 22.6307 5.4516C23.094 4.37976 23.7734 3.40588 24.63 2.58561C25.4866 1.76535 26.5036 1.1148 27.6229 0.671141C28.7422 0.227484 29.9419 -0.000575321 31.1533 1.08991e-06C33.8095 1.08991e-06 36.207 1.06566 37.8923 2.78912C39.9572 2.40675 41.9374 1.68493 43.7452 0.65562C43.0569 2.69663 41.6151 4.42731 39.6898 5.52343C41.5212 5.32341 43.3111 4.86223 45 4.15518C43.7386 5.91614 42.1755 7.46035 40.3768 8.72259Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a class="footer-info__link" href="#"><svg width="46" height="45" viewBox="0 0 46 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M42.821 0H2.82095C2.15791 0 1.52203 0.263392 1.05319 0.732233C0.584345 1.20107 0.320953 1.83696 0.320953 2.5V42.5C0.320953 43.163 0.584345 43.7989 1.05319 44.2678C1.52203 44.7366 2.15791 45 2.82095 45H42.821C43.484 45 44.1199 44.7366 44.5887 44.2678C45.0576 43.7989 45.321 43.163 45.321 42.5V2.5C45.321 1.83696 45.0576 1.20107 44.5887 0.732233C44.1199 0.263392 43.484 0 42.821 0ZM13.6685 38.3425H6.98845V16.8675H13.6685V38.3425ZM10.3285 13.935C9.30206 13.935 8.31772 13.5273 7.59195 12.8015C6.86618 12.0757 6.45845 11.0914 6.45845 10.065C6.45845 9.03861 6.86618 8.05426 7.59195 7.3285C8.31772 6.60273 9.30206 6.195 10.3285 6.195C11.3548 6.195 12.3392 6.60273 13.065 7.3285C13.7907 8.05426 14.1985 9.03861 14.1985 10.065C14.1985 11.0914 13.7907 12.0757 13.065 12.8015C12.3392 13.5273 11.3548 13.935 10.3285 13.935ZM38.666 38.3425H31.9935V27.9C31.9935 25.41 31.9485 22.2075 28.5235 22.2075C25.0485 22.2075 24.521 24.9225 24.521 27.725V38.345H17.8535V16.87H24.2535V19.805H24.346C25.2335 18.1175 27.4135 16.3375 30.656 16.3375C37.416 16.3375 38.6635 20.7825 38.6635 26.5675V38.3425H38.666Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a class="footer-info__link" href="#"><svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M45.2533 13.9763C45.2281 12.0868 44.8738 10.2162 44.2063 8.44797C43.6274 6.9565 42.7433 5.60197 41.6104 4.47094C40.4774 3.33991 39.1207 2.45724 37.6267 1.87933C35.8783 1.22411 34.0313 0.869819 32.1641 0.831546C29.7602 0.724273 28.998 0.694336 22.8958 0.694336C16.7935 0.694336 16.0113 0.694336 13.6249 0.831546C11.7586 0.8701 9.9124 1.22439 8.1648 1.87933C6.67061 2.45684 5.31362 3.33936 4.18066 4.47045C3.04769 5.60153 2.16369 6.95626 1.58523 8.44797C0.927597 10.1921 0.573484 12.0357 0.538192 13.899C0.43074 16.3014 0.398254 17.0623 0.398254 23.1544C0.398254 29.2466 0.398254 30.0249 0.538192 32.4099C0.575676 34.2759 0.928019 36.1171 1.58523 37.8659C2.16466 39.3571 3.04932 40.7113 4.18266 41.8419C5.31601 42.9725 6.67313 43.8547 8.1673 44.432C9.91011 45.1136 11.7566 45.4932 13.6274 45.5546C16.0338 45.6619 16.796 45.6943 22.8983 45.6943C29.0005 45.6943 29.7827 45.6943 32.1691 45.5546C34.0362 45.5179 35.8834 45.1645 37.6317 44.5093C39.1253 43.9308 40.4817 43.0479 41.6145 41.9169C42.7474 40.786 43.6317 39.4318 44.2113 37.9407C44.8685 36.1944 45.2208 34.3533 45.2583 32.4847C45.3658 30.0848 45.3983 29.3239 45.3983 23.2293C45.3933 17.1371 45.3933 16.3638 45.2533 13.9763ZM22.8808 34.6751C16.4986 34.6751 11.3284 29.5135 11.3284 23.1419C11.3284 16.7704 16.4986 11.6088 22.8808 11.6088C25.9446 11.6088 28.883 12.8239 31.0495 14.9868C33.216 17.1497 34.4331 20.0832 34.4331 23.1419C34.4331 26.2007 33.216 29.1342 31.0495 31.2971C28.883 33.46 25.9446 34.6751 22.8808 34.6751ZM34.8929 13.8715C34.5391 13.8718 34.1886 13.8025 33.8617 13.6675C33.5347 13.5324 33.2376 13.3344 32.9874 13.0846C32.7372 12.8348 32.5388 12.5382 32.4035 12.2117C32.2682 11.8853 32.1988 11.5355 32.1991 11.1822C32.1991 10.8292 32.2688 10.4796 32.4041 10.1535C32.5394 9.82738 32.7377 9.53105 32.9878 9.28144C33.2378 9.03183 33.5346 8.83383 33.8613 8.69874C34.188 8.56365 34.5381 8.49412 34.8917 8.49412C35.2453 8.49412 35.5954 8.56365 35.9221 8.69874C36.2487 8.83383 36.5456 9.03183 36.7956 9.28144C37.0456 9.53105 37.244 9.82738 37.3793 10.1535C37.5146 10.4796 37.5842 10.8292 37.5842 11.1822C37.5842 12.6691 36.3798 13.8715 34.8929 13.8715Z M22.8811 30.6338C27.0255 30.6338 30.3852 27.2796 30.3852 23.1421C30.3852 19.0045 27.0255 15.6504 22.8811 15.6504C18.7366 15.6504 15.3769 19.0045 15.3769 23.1421C15.3769 27.2796 18.7366 30.6338 22.8811 30.6338Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </div> 
+                </div>
+                <div class="footer-info__item">
+                    <h3 class="title_third footer-info__title">About us</h3>
+                    <p class="text footer-info__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-description">
+            <div class="container footer-description__container">
+                <p class="text footer-description__text">Copyright © 2015 ActiveBox. All Rights Reserved
+                    Made With <a class="text footer-description__link" href="#">By Kamal Chaneman</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".reviews__container", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+</body>
+</html>
