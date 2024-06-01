@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
       <paths name="Server">
+=======
+  <component name="PublishConfigData" serverName="Remote server" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="Remote server">
+>>>>>>> ecc401c26a42d5f496489cce9c734942318e3d6e
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

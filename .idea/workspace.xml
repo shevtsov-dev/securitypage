@@ -25,6 +25,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -43,6 +44,25 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ramirez/PhpstormProjects/security&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+>>>>>>> ecc401c26a42d5f496489cce9c734942318e3d6e
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -61,10 +81,14 @@
       <updated>1716492439951</updated>
       <workItem from="1716492440975" duration="531000" />
       <workItem from="1716492984545" duration="212000" />
+<<<<<<< HEAD
       <workItem from="1716539477520" duration="6456000" />
       <workItem from="1716912048199" duration="4833000" />
       <workItem from="1717003051895" duration="853000" />
       <workItem from="1717084953748" duration="1612000" />
+=======
+      <workItem from="1716539477520" duration="2647000" />
+>>>>>>> ecc401c26a42d5f496489cce9c734942318e3d6e
     </task>
     <servers />
   </component>
