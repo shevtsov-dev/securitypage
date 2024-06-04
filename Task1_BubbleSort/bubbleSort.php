@@ -1,6 +1,6 @@
-<?php
+    <?php
 
-$array = [60, 50, 30, 70, 20, 10];
+$array = [60, 50, 30, 70, 20, 10, 5, 17, 46, 32];
 print_r($array);
 echo "<br>";
 for ($i = 0; $i < count($array) - 1; $i++) {
